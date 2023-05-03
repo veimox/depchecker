@@ -1,8 +1,23 @@
 name: Publish Package to npmjs
+
 on:
   push:
     branches:
       - main
+
+permissions:
+  actions: write
+  checks: write
+  contents: write
+  deployments: write
+  id-token: write
+  issues: write
+  packages: write
+  pull-requests: write
+  repository-projects: write
+  security-events: read
+  statuses: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
