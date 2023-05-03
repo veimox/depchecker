@@ -1,0 +1,15 @@
+{
+  "name": "depchecker",
+  "version": "1.0.0",
+  "description": "Uses depcheck to remove any unused depdendencies from the package.json",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Rodriguez <veimox@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "depcheck": "^1.4.3"
+  }
+}
