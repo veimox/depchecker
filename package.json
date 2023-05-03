@@ -1,5 +1,5 @@
 {
-  "name": "depchecker",
+  "name": "depoptimizer",
   "version": "1.0.0",
   "description": "Uses depcheck to remove any unused depdendencies from the package.json",
   "bin": "index.js",
